@@ -1,0 +1,80 @@
+body {
+	width: 980px
+}
+
+table {
+	width: 920px;
+	border: 1px;
+	border-style: solid;
+	border-color: #b496b4;
+	border-spacing: 0;
+	border-collapse: separate;
+	font-family: sans-serif;
+}
+
+tr {
+	border: 1px;
+	border-style: solid;
+	border-color: #b496b4;
+}
+
+
+
+td {
+	padding-top: 9px;
+	padding-bottom: 7px;
+	padding-left: 7px;
+	border: 1px;
+	border-style: solid;
+	border-color: #b496b4;
+}
+
+.thead {
+	padding-top: 9px;
+	padding-bottom: 7px;
+	text-align:center;
+	border: 1px;
+	border-style: solid;
+	border-color: #b496b4;
+	background-color: #eadcea;
+}
+
+.upper {
+	font-family: sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.upper2 {
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.text-block2 {
+	font-family: sans-serif;
+}
+
+.line { 
+    border-left: 2px solid #b496b4; /* Параметры линии */ 
+    padding-left: 32px; /* Расстояние от линии до текста */ 
+    background-color: #eadcea;
+   }
+
+.pre { 
+	font-family: monospace;
+	font-style: italic;
+	padding-top: 12px;
+	padding-bottom: 9px;
+	padding-left: 14px;
+	background-color: #f0e6d6; 
+}
+
+h3 {
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+dt {
+	font-weight: bold;
+	font-style: italic;
+}
