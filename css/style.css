@@ -1,5 +1,5 @@
 body {
-	width: 980px
+	width: 980px;
 }
 
 table {
@@ -39,19 +39,73 @@ td {
 	background-color: #eadcea;
 }
 
-.upper {
-	font-family: sans-serif;
-	font-weight: bold;
-	text-transform: uppercase;
+.wysiwyg {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 30px;
 }
 
-.upper2 {
-	font-family: sans-serif;
-	font-weight: bold;
+.wysiwyg-2 {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
-.text-block2 {
-	font-family: sans-serif;
+.wysiwyg-2 h1 {
+	font-family: Arial, sans-serif;
+	font-size: 42px;
+	margin-top: 42px;
+	margin-bottom: 42px;
+}
+
+.wysiwyg h1{
+	font-family: Arial, sans-serif;
+	font-size: 42px;
+	margin-top: 42px;
+	margin-bottom: 42px;
+}
+
+.wysiwyg h2{
+	font-family: Arial, sans-serif;
+	font-size: 36px;
+	margin-top: 36px;
+	margin-bottom: 36px;
+}
+
+.wysiwyg h3{
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	margin-top: 30x;
+	margin-bottom: 30px;
+}
+
+.wysiwyg h4{
+	font-family: Arial, sans-serif;
+	font-size: 26px;
+	margin-top: 26px;
+	margin-bottom: 26px;
+}
+
+.wysiwyg h5{
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.wysiwyg h6{
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+.wysiwyg p{
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	margin-top: 16px;
+	margin-bottom: 16px;
 }
 
 .line { 
