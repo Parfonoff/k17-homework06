@@ -1,26 +1,32 @@
 body {
-	width: 980px;
+	color: #252525;
+	background-color: #d1e4ff;
+	margin: 0;
 }
 
-table {
-	width: 920px;
+.wysiwyg {
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+	padding: 30px;
+}
+
+.wysiwyg table {
+	width: 100%;
 	border: 1px;
 	border-style: solid;
 	border-color: #b496b4;
 	border-spacing: 0;
-	border-collapse: separate;
+	border-collapse: collapse;
 	font-family: sans-serif;
 }
 
-tr {
-	border: 1px;
-	border-style: solid;
-	border-color: #b496b4;
+.wysiwyg tr {
+	border: 1px solid #b496b4;
 }
 
-
-
-td {
+.wysiwyg td {
 	padding-top: 9px;
 	padding-bottom: 7px;
 	padding-left: 7px;
@@ -29,7 +35,7 @@ td {
 	border-color: #b496b4;
 }
 
-.thead {
+.wysiwyg th {
 	padding-top: 9px;
 	padding-bottom: 7px;
 	text-align:center;
@@ -39,96 +45,94 @@ td {
 	background-color: #eadcea;
 }
 
-.wysiwyg {
-	width: 980px;
-	margin-right: auto;
-	margin-left: auto;
-	padding: 30px;
-}
-
-.wysiwyg-2 {
-	width: 980px;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.wysiwyg-2 h1 {
+.wysiwyg h1 {
 	font-family: Arial, sans-serif;
 	font-size: 42px;
 	margin-top: 42px;
 	margin-bottom: 42px;
+	text-transform: uppercase;
 }
 
-.wysiwyg h1{
-	font-family: Arial, sans-serif;
-	font-size: 42px;
-	margin-top: 42px;
-	margin-bottom: 42px;
-}
-
-.wysiwyg h2{
+.wysiwyg h2 {
 	font-family: Arial, sans-serif;
 	font-size: 36px;
 	margin-top: 36px;
 	margin-bottom: 36px;
+	text-transform: uppercase;
 }
 
-.wysiwyg h3{
+.wysiwyg h3 {
 	font-family: Arial, sans-serif;
 	font-size: 30px;
-	margin-top: 30x;
+	margin-top: 30px;
 	margin-bottom: 30px;
+	text-transform: uppercase;
 }
 
-.wysiwyg h4{
+.wysiwyg h4 {
 	font-family: Arial, sans-serif;
 	font-size: 26px;
 	margin-top: 26px;
 	margin-bottom: 26px;
 }
 
-.wysiwyg h5{
+.wysiwyg h5 {
 	font-family: Arial, sans-serif;
 	font-size: 20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
-.wysiwyg h6{
+.wysiwyg h6 {
 	font-family: Arial, sans-serif;
 	font-size: 16px;
 	margin-top: 16px;
 	margin-bottom: 16px;
 }
 
-.wysiwyg p{
+.wysiwyg p {
 	font-family: Arial, sans-serif;
 	font-size: 16px;
 	margin-top: 16px;
 	margin-bottom: 16px;
 }
 
-.line { 
+.wysiwyg blockquote { 
+	margin-left: auto;
+	margin-right: auto;
     border-left: 2px solid #b496b4; /* Параметры линии */ 
     padding-left: 32px; /* Расстояние от линии до текста */ 
     background-color: #eadcea;
    }
 
-.pre { 
+.wysiwyg pre {
 	font-family: monospace;
 	font-style: italic;
+	background-color: #f0e6d6; 
+	padding-left: 14px;
 	padding-top: 12px;
 	padding-bottom: 9px;
-	padding-left: 14px;
-	background-color: #f0e6d6; 
 }
 
-h3 {
-	font-family: sans-serif;
-	font-weight: bold;
-}
-
-dt {
+.wysiwyg dt {
 	font-weight: bold;
 	font-style: italic;
+}
+
+.wysiwyg code,
+.wysiwyg samp,
+.wysiwyg kbd {
+	padding: 1px 5px;
+}
+
+.wysiwyg code {
+	background-color: #f0e6d6;
+}
+
+.wysiwyg samp {
+	background-color: #eadcdc;
+}
+
+.wysiwyg kbd {
+	background-color: #eadcea;
 }
